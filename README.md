@@ -43,13 +43,13 @@ If you don't intend to run it on the same machine, you should set the MPD enviro
 * C++17
 
 # Install dependencies and requirements on Raspbian Stretch!
-`apt-get install autoconf libsdl2-dev libsdl2-ttf-dev libsdl2-image-dev libtool`
-`git clone https://bitbucket.org/sol_prog/raspberry-pi-gcc-binary.git`
-`cd raspberry-pi-gcc-binary&&tar xjvf gcc-7.2.0.tar.bz2 -C /opt/`
-`cd /opt/gcc-7.2.0/bin/&&ln -s gcc-7.2.0 gcc&&ln -s g++-7.2.0 g++&&ln -s c++-7.2.0 c++&&ln -s cpp-7.2.0 cpp`
-`export PATH=/opt/gcc-7.2.0/bin:$PATH`
-`git clone https://github.com/e1z0/libwtk-sdl2.git`
-`cd libwtk-sdl2&&autoreconf --install&&./configure&&make&&make install`
+* `apt-get install autoconf libsdl2-dev libsdl2-ttf-dev libsdl2-image-dev libtool`
+* `git clone https://bitbucket.org/sol_prog/raspberry-pi-gcc-binary.git`
+* `cd raspberry-pi-gcc-binary&&tar xjvf gcc-7.2.0.tar.bz2 -C /opt/`
+* `cd /opt/gcc-7.2.0/bin/&&ln -s gcc-7.2.0 gcc&&ln -s g++-7.2.0 g++&&ln -s c++-7.2.0 c++&&ln -s cpp-7.2.0 cpp`
+* `export PATH=/opt/gcc-7.2.0/bin:$PATH`
+* `git clone https://github.com/e1z0/libwtk-sdl2.git`
+* `cd libwtk-sdl2&&autoreconf --install&&./configure&&make&&make install`
 
 # Installation
 
